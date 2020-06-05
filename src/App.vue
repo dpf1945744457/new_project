@@ -3,7 +3,7 @@
     <!-- 显示主页 -->
     <el-container class="app-container">
       <!-- 左侧导航菜单 -->
-      <el-aside width="200px">Aside</el-aside>
+      <el-aside width="200px" class="app-aside"></el-aside>
 
       <el-container>
         <!-- 顶部区域 -->
@@ -36,18 +36,21 @@ body {
 }
 #app {
   height: 100%;
-
 }
+
 .app-container {
   height: 100%;
 }
+.app-aside {
+  width: 300px;
+  background: #676a6c;
+}
 .app-header {
-  padding-left: 0;
-  padding-right: 0;
+  height: 61px;
+  background: white;
 }
 .app-main {
-  padding-bottom: 0;
-  padding-right: 0;
+  background: #625252;
 }
 .app-footer {
   padding-bottom: 0;
